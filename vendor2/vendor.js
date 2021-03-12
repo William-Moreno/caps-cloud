@@ -3,7 +3,7 @@
 const { Consumer } = require('sqs-consumer');
 
 const app = Consumer.create({
-  queueUrl: 'https://sqs.us-west-2.amazonaws.com/560831323692/acme-widgets',
+  queueUrl: 'https://sqs.us-west-2.amazonaws.com/560831323692/lolo-prices',
   handleMessage: handler,
 });
 
