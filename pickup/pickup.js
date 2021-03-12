@@ -35,4 +35,4 @@ setInterval(() => {
   };
   
   sns.publish(params).promise().then(console.log).catch(console.error);
-}, (5000 + ((Math.random() * 10) * 500)));
+}, (1000 + ((Math.random() * 10) * 500)));
