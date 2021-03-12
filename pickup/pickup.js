@@ -10,7 +10,6 @@ const vendorA = 'https://sqs.us-west-2.amazonaws.com/560831323692/acme-widgets';
 const vendorB = 'https://sqs.us-west-2.amazonaws.com/560831323692/lolo-prices';
 
 
-
 setInterval(() => {
   let vendor;
   let randomStore = Math.ceil(Math.random() * 10);
@@ -19,7 +18,6 @@ setInterval(() => {
   } else {
     vendor = vendorB;
   }
-
 
   const order = {
     orderId: faker.random.uuid(),
